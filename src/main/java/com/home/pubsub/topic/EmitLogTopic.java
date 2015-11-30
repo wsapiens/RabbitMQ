@@ -45,12 +45,7 @@ public class EmitLogTopic {
 		case 4: species = "hamster";
 			break;
 		}
-		
-		
-		
-		
-		
-		
+
 		try{
 			String routingKey = String.join(".", speed,colour,species);
 			String message = String.join("", "[", routingKey, "] message");
